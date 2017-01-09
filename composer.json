@@ -1,0 +1,25 @@
+{
+  "name": "nblackburn/xorlib",
+  "homepage": "http://github.com/nblackburn/xorlib",
+  "description": "A simple XOR obfuscation library.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nathaniel Blackburn",
+      "email": "support@nblackburn.uk",
+      "homepage": "http://nblackburn.uk"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "XorLib\\": "source/"
+    },
+    "classmap": [
+      "tests/"
+    ]
+  }
+}
